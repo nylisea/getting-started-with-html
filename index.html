@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>CodePen - Class Notes</title>
+
+</head>
+
+<body>
+
+   <title>Dan's Notes</title>
+</head>
+<h1>Important concepts</h1>
+
+<b> How the web works</b>
+<p>The web is a bunch of computers that communicate with each other. When person goes to a web page like www.yahoo.com, their computer sends an <em>HTTP request</em> to a <em>server</em>.The server finds the appropriate HTML document and sends it back to the user's computer where a <em>web browser</em> interprets the page and displays it on the user's screen.<a href="https://www.youtube.com/watch?v=hvFNsm_chUw">Click here</a></p>
+
+<h2>HTML Hypertext Markup Language </h2>
+
+<b>HTML is made up of the following</b>
+
+<br>-Text Content<br>-Mark-up (what it looks like)<br>-References to other Documents (e.g. images, and video)<br>-Links to Other Pages</br>
+
+<h3>HTML Mark-up</h3>
+
+<br>The first tag used is the opening tag followed by content, ending in a closing tag.<br>
+<p>The entire HTML line (Opening tag-Content-/Closing Tag) is referred to as an Element. Failure to us the closing tag will fail to end the mark-up effect. The remaining part text will be bold or Italics until the closing tag is used.</p>
+<br> Mark-up Tags<br>
+<br>< b > Bold < /b >   <b>   BOLD<b>
+<br>< em > Emphasize <em>( Italics)</em><br>
+<br>
+<br>
+<b> Making a Link
+<p> The tag for making a link is < a href<="www.w3c.org/html">HTML< /a> The output is shown below.</p>
+
+<a href="www.w3c.org/html">HTML</a><br>You can see that the text after quotations will appear as the link<br>
+
+<p>The < img > tag is used to link to images</p> To link to an image your command format will look like this. You will use two additional fields the first is src or ( source), the second is alt ( alternate). The source refers to the URL of the image, while the ALT field refers to the displayed text if the image fails to load,- it is required.There is no closing tag for an image, the command ends in a "void"tag that has no content- therefor void.</p>
+<br> Image example<br>
+<br> < img src="http://www.udacity.com/cs253x/hipmunk.png" alt="hipmunk!"><br>
+
+<br> here is the image display<img src="http://www.udacity.com/cs253x/hipmunk.png"alt="hipmunk!">
+
+<br>
+<br>
+<br>
+<b> White Space <b>
+<p> In HTML All white space is rendered into a single space. If you would like to add a line break us the < br > tag to add a linebreak. The < br > tag requires a void tag, there is no closing tag.</p>
+Example below
+<p> using the < br > tag I will break this sentence into two separate lines.</p>
+<p> using the <br> tag I will break this sentence into two separate lines</p>
+
+<b> The Paragraph Tag  < P > </b>
+<p> The Paragraph does have content and requires a closing tag < / p >. The P tag also provided line breaks, soo the example below.</p>
+<p> < P > Hello Everyone!< / p > < p > we're using two lines now< / p > </p>
+<p> here is the output from the command above</p><p>Hello Everyone!</p><p>we're using two lines now!</p>
+
+<b>INLINE  / Block</b>
+<p> The < br > tag is inline, so br simply ends a line and wraps to the next line down. The < p > tag actually makes an invisible box around the text. The dimensions of the box can be adjusted height, and width. 
+  Inline Elements are < b > , < em > , < img >. and the < p > is the only block element learned so far. </b>
+
+</body>
+
+</html>
